@@ -1,5 +1,8 @@
 require "paper_rocks_scissors/version"
+require "paper_rocks_scissors/Game"
 
 module PaperRocksScissors
-  # Your code goes here...
+  g = Game.new
+  g.play
+
 end
