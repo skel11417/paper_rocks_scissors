@@ -5,7 +5,9 @@ class Game
 
     def valid_input(input="")
       options = ["scissors", "paper", "rock"]
-      options.include? input.downcase
+      unless input == "q"
+        options.include? input.downcase
+      end
     end
 
     def get_comp_select
