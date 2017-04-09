@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["shonkelli@gmail.com"]
 
   spec.summary       = "My first real gem"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/skel11417/paper_rocks_scissors"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
